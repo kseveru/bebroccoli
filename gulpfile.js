@@ -8,8 +8,8 @@ var autoprefixer = require('autoprefixer');
 var cssmin = require('gulp-csso');
 var pump = require('pump');
 var imagemin = require('gulp-imagemin');
-var browserSync = require("browser-sync").create();
 var ghPages = require('gulp-gh-pages');
+var browserSync = require("browser-sync").create();
 
 gulp.task('clean', function () {
   return del('build');
