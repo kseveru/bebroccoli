@@ -8,16 +8,15 @@ var autoprefixer = require('autoprefixer');
 var cssmin = require('gulp-csso');
 var pump = require('pump');
 var imagemin = require('gulp-imagemin');
-var ghPages = require('gulp-gh-pages');
 var browserSync = require("browser-sync").create();
 
 gulp.task('clean', function () {
-  return del('build');
+  return del('docs');
 });
 
 gulp.task('copy', function () {
   return gulp.src('assets/fonts/*.{woff,woff2}', {base: './assets/'})
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('docs'));
 });
 
 gulp.task('image', function () {
@@ -27,31 +26,26 @@ gulp.task('image', function () {
       imagemin.jpegtran({progressive: true}),
       imagemin.svgo()
       ]))
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('docs'));
 });
 
 gulp.task('html', function() {
   return gulp.src('assets/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('docs'));
 });
 
 gulp.task('style', function () {
   return gulp.src('assets/css/*.css', {base: './assets/'})
     .pipe(postcss([ autoprefixer() ]))
     .pipe(cssmin())
-    .pipe(gulp.dest('build'))
-});
-
-gulp.task('deploy', function() {
-  return gulp.src('./build/**/*')
-    .pipe(ghPages());
+    .pipe(gulp.dest('docs'))
 });
 
 gulp.task('default',
   gulp.series('clean',
   gulp.parallel('copy', 'image', 'html', 'style'),
-              'deploy')
+  )
 );
 
 gulp.task('dev', function() {
