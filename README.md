@@ -1,6 +1,6 @@
 # bebroccoli
 
-Резиновая вёрстка
+Резиновая вёрстка (landing page)
 
 https://kseveru.github.io/bebroccoli/
 
