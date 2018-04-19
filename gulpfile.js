@@ -50,7 +50,7 @@ gulp.task('default',
 
 gulp.task('dev', function() {
   browserSync.init({
-    server: '.'
+    server: 'docs'
   });
   gulp.watch('assets/css/*.css', gulp.series('style'));
   gulp.watch('assets/*.html', gulp.series('html'));
