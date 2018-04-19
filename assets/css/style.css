@@ -116,6 +116,7 @@ img {
   font-size: 24px;
   line-height: 1;
   color: #6ab039;
+  text-decoration: none;
 }
 
 .logo__name {
@@ -590,10 +591,10 @@ img {
   .card__content {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 44%;
     max-width: 475px;
     min-height: 585px;
-    padding: 0 0 0 var(--wrap-padding);
+    padding: 0 var(--wrap-padding);
   }
 
   .card__info-wrap {
@@ -605,7 +606,8 @@ img {
   .card__content--left {
     order: -1;
     margin-left: auto;
-    padding: 0 var(--wrap-padding) 0 0;
+    padding: 0 var(--wrap-padding);
   }
 
 }
+
