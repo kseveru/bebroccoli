@@ -25,7 +25,6 @@
     "autoprefixer": "^8.1.0",
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
-    "gh-pages": "^1.1.0",
     "gift": "^0.10.2",
     "gulp": "^4.0.0",
     "gulp-csso": "^3.0.1",
