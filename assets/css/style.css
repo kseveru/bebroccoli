@@ -145,6 +145,7 @@ img {
   color: #f7f7f7;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 
   background-color: #6ab039;
   border-radius: 13%/50%;
@@ -186,6 +187,7 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+  min-height: 38px;
 }
 
 .site-nav__list {
@@ -251,8 +253,7 @@ img {
 
 .page-header__row {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .page-header__logo {
@@ -284,7 +285,7 @@ img {
 
 .page-footer__inner {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 790px;
   margin: 0 auto;
   padding: 1.875rem /*var(--wrap-padding)*/;
@@ -306,7 +307,7 @@ img {
 ============================================================ */
 
 .page-content__section {
-  margin-top: 1rem /*var(--wrap-padding)*/;
+  padding-top: 1rem /*var(--wrap-padding)*/;
 }
 
 /* Benefit
@@ -530,6 +531,11 @@ img {
   .page-footer__logo {
     width: auto;
     margin-bottom: 0;
+  }
+
+  .page-header__row,
+  .page-footer__inner {
+    flex-direction: row;
   }
 
   .page-header__nav,
