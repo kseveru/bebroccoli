@@ -2,9 +2,9 @@
 
 [kseveru.github.io/bebroccol](https://kseveru.github.io/bebroccol/ "Открыть проект")
 
-**Верстка**: резиновая
-**Страниц**: landing page
-**Макет**: [Valerie Kaliuta](https://www.behance.net/Nafan1ya "Автор дизайна")
+**Верстка**: резиновая  
+**Страниц**: landing page  
+**Макет**: [Valerie Kaliuta](https://www.behance.net/Nafan1ya "Автор дизайна")  
 
 <a href="https://kseveru.github.io/img/preview-bebroccoli.jpg" title="Открыть макет">
   <img src="https://kseveru.github.io/img/preview-bebroccoli-small.png">
