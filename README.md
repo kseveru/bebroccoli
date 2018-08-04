@@ -1,6 +1,6 @@
 # Bebroccoli #
 
-[kseveru.github.io/bebroccol](https://kseveru.github.io/bebroccol/ "Открыть проект")
+[kseveru.github.io/bebroccoli](https://kseveru.github.io/bebroccoli/ "Открыть проект")
 
 **Верстка**: резиновая  
 **Страниц**: landing page  
