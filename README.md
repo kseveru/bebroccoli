@@ -1,7 +1,11 @@
-# bebroccoli
+# Bebroccoli #
 
-Резиновая вёрстка (landing page)
+[kseveru.github.io/bebroccol](https://kseveru.github.io/bebroccol/ "Открыть проект")
 
-https://kseveru.github.io/bebroccoli/
+**Верстка**: резиновая
+**Страниц**: landing page
+**Макет**: [Valerie Kaliuta](https://www.behance.net/Nafan1ya "Автор дизайна")
 
-Макет: Valerie Kaliuta (https://www.behance.net/Nafan1ya)
+<a href="https://kseveru.github.io/img/preview-bebroccoli.jpg" title="Открыть макет">
+  <img src="https://kseveru.github.io/img/preview-bebroccoli-small.png">
+</a>
