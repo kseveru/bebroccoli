@@ -3,7 +3,7 @@
 [kseveru.github.io/bebroccoli](https://kseveru.github.io/bebroccoli/ "Открыть проект")
 
 **Верстка**: резиновая  
-**Страниц**: landing page  
+**Страниц**: 1 (landing page)  
 **Макет**: [Valerie Kaliuta](https://www.behance.net/Nafan1ya "Автор дизайна")  
 
 <table>
